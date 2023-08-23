@@ -1,3 +1,22 @@
+.frame {
+    border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover  {
+    background-color: rgba(165, 42, 42, 0.5);
+    color: white;
+  }
+
+#hmbttn:hover {
+    background-color: brown;
+    color: white;
+    padding: 10px;
+  } 
+
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: silver;
@@ -6,9 +25,22 @@ body {
     margin-bottom: 16px;
 }
 
+.box{
+    padding: 0;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: rgba(26, 27, 27, 0.5);
+    margin: 10px;
+    padding-top: 200px;
+    color: white;
+    font-weight: 800;
+}
+
 h1 { 
     text-align: center;
     background-color: white;
+    border: 2px dotted black;
 }
 
 .position {
@@ -20,10 +52,10 @@ h1 {
 }
 
 #hmbttn {
+    padding: 10px;
     background-color: gold;
+    color: white;
     font-weight: 800;
     margin: 0 auto;
-    display: block;
-
-    
+    display: block;    
 }
